@@ -1,0 +1,19 @@
+First Of all add express to project so that it work as backend 
+to our project - npm i express.
+- Then we do routing .
+- Then we install nodemon as a global package so as our site run side side by without writing command
+to not check again and again 
+-Then we made statics file like html or css files then we have to mention that file into 
+express means at app.js so that expraess get to know about that 
+- the static name or the path you are giving in express as path should be same so as to successfully run 
+- now our main task is to we made static page as html pages or css pages now create into dynamic pages 
+-for increasing code reusability we use template engine and for that we use handle bars i.e the 
+express.js view engine for handlebars.js
+- for using template engine we use views folder (This name should be as like that only )
+- make all your files their only with your name as static files names 
+- after that mention into express as e used handle bars other wise it will not reflect on to server 
+- we use send in routing to show statics pages so we are using handle bars 
+so we have to use render insted of send keyword .
+- using partials we can increase the code reusability
+- for automatically reflecting changes to our page we have to run command 
+as nodemon src/app.js -e js,hbs
